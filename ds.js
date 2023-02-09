@@ -88,7 +88,8 @@ console.log("20.push",arr5);
 
 //reverse
 let g=["gopii","df","vb","fdfg"];
-console.log("21.reverse",g.reverse());
+let rev = g.reverse();
+console.log("21.reverse",rev);
 
 //shift
 let d=g.shift();
