@@ -15,7 +15,7 @@ class StackList
             this.rootNode= new Node(value)
             this.count++;
         }else{
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             while(temp.nextNode != null){
                 temp = temp.nextNode;
             }
@@ -35,7 +35,7 @@ class StackList
         n1.nextNode = n1.nextNode.nextNode;
     }
     printElements(){
-        var temp = this.rootNode;
+        let temp = this.rootNode;
         if(temp == null){
             console.log("Is empty!")
         }else{
@@ -46,7 +46,7 @@ class StackList
     }
     }
 }
-var list = new StackList();
+let list = new StackList();
 list.addElement(2);
 list.addElement(3);
 list.addElement(4);
