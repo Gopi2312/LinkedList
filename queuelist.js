@@ -15,7 +15,7 @@ class QueueList
             this.rootNode= new Node(value)
             this.count++;
         }else{
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             while(temp.nextNode != null){
                 temp = temp.nextNode;
             }
@@ -28,7 +28,7 @@ class QueueList
         this.rootNode = n1.nextNode;
     }
     printElements(){
-        var temp = this.rootNode;
+        let temp = this.rootNode;
         if(temp == null){
             console.log("Is empty!")
         }else{
@@ -39,7 +39,7 @@ class QueueList
     }
     }
 }
-var list = new QueueList();
+let list = new QueueList();
 list.addElement(2);
 list.addElement(3);
 list.addElement(4);
