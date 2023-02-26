@@ -19,6 +19,7 @@ class LinkedList{
                         temp = temp.nextNode;
                     }
                     temp.nextNode = new Node(value);
+                    this.count++;
                 }
             }
 
